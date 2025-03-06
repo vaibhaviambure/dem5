@@ -1,0 +1,89 @@
+/* header start */
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+header .icon {
+    color: rgb(18, 170, 235);
+    padding: 10px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    color: black;
+    font-size: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+/* header end */
+.page-section {
+    background-image: url('../Images/homeimages/Rectangle\ 13.png') no-repeat center center;
+    background-size: cover;
+    padding: 60px 30px;
+}
+
+/* footer start */
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #212529;
+}
+
+footer {
+    background-image: url('/Images/homeimages/Rectangle\ 22.png');
+    background-size: cover;
+}
+
+.newsletter-form {
+    border-radius: 50px;
+}
+
+hr {
+    border: 3px solid white;
+    width: 85%;
+
+}
+
+/* footer-end */
+/* footer end */
+/* department secction start */
+.undu {
+    width: 160px;
+    height: 5px;
+    background-color: rgb(10, 177, 233);
+}
+
+h6 {
+    font-size: 18px;
+}
+
+/* department section end */

@@ -1,0 +1,759 @@
+/* header start */
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+header .icon {
+    color: rgb(18, 170, 235);
+    padding: 10px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    color: black;
+    font-size: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+/* header end */
+/* swiper start */
+swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: cover;
+}
+
+.swiper-img {
+    position: relative;
+    width: 100%;
+}
+
+.swiper-content {
+    position: absolute;
+    margin: 50px 110px;
+}
+
+.swiper-content h2 {
+    font-size: 36px;
+}
+
+.swiper-content p {
+    font-size: 18px;
+}
+
+.swiper-content button {
+    border-radius: 30px;
+    background-color: #18B6F1;
+    border: none;
+    padding: 8px 40px;
+    font-size: 14px;
+    color: white;
+}
+
+@media screen and (max-width: 320px) {
+    .swiper-img {
+        height: 150px;
+    }
+
+    .swiper-content {
+        margin: 4px 10px;
+    }
+
+    .swiper-content h2 {
+        font-size: 17px;
+    }
+
+    .swiper-content p {
+        font-size: 9px;
+    }
+
+    .swiper-content button {
+        padding: 5px 15px;
+    }
+}
+
+/* swiper end */
+/* About-section start */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    padding: auto;
+    width: 500px;
+    box-shadow: -40px -40px rgb(226, 226, 226);
+
+}
+
+.gos {
+    margin-left: 50px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.underline {
+    width: 95px;
+    height: 5px;
+    background-color: rgb(10, 177, 233);
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 30px;
+
+    background-color: white;
+    padding: 10px 40px;
+    font-size: 14px;
+    color: black;
+    border: 2px solid rgb(10, 177, 233);
+}
+
+@media screen and (max-width: 320px) {
+    .gos {
+        margin-left: 50px;
+    }
+}
+
+/* about-section end */
+/* services-page start */
+.services-section {
+    padding: 60px 0;
+    color: #fff;
+}
+
+.services-container {
+    background: url("../Images/homeimages/Rectangle\ 13.png") no-repeat center center;
+    background-size: cover;
+    padding: 60px 30px;
+}
+
+.services-section .service-icon {
+    font-size: 3rem;
+}
+
+.services-section h5 {
+    margin-top: 15px;
+}
+
+.under {
+    width: 95px;
+    height: 5px;
+    background-color: rgb(10, 177, 233);
+}
+
+/* services-page end  */
+/* department secction start */
+.undu {
+    width: 160px;
+    height: 5px;
+    background-color: rgb(10, 177, 233);
+}
+
+h6 {
+    font-size: 18px;
+}
+
+/* department section end */
+/* doctors section start */
+.underlines {
+    width: 90px;
+    height: 5px;
+    background-color: rgb(10, 177, 233);
+}
+
+/* doctor section end */
+/* footer :start */
+
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #212529;
+}
+
+footer {
+    background-image: url('/Images/homeimages/Rectangle\ 22.png');
+    background-size: cover;
+}
+
+.newsletter-form {
+    border-radius: 50px;
+}
+
+hr {
+    border: 3px solid white;
+    width: 85%;
+
+}
+
+/* footer-end */
+
+/* abouttttt-start */
+/* header start */
+.about header {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.about header.icon {
+    color: rgb(18, 170, 235);
+    padding: 10px;
+}
+
+.about.social-links {
+    text-align: right;
+}
+
+.about.social-links a {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    color: black;
+    font-size: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+/* header end */
+.page-section {
+    background-image: url('../Images/homeimages/Rectangle\ 13.png') no-repeat center center;
+    background-size: cover !important;
+    padding: 60px 30px;
+    background: no-repeat;
+}
+
+/* about-section */
+.about.underline {
+    width: 95px;
+    height: 5px;
+    background-color: rgb(10, 177, 233);
+    margin-bottom: 20px;
+}
+
+.about ul.custom-list {
+    list-style: none;
+}
+
+ul.custom-list li:before {
+    content: "";
+    height: 0;
+    width: 0;
+    border-color: transparent rgb(10, 177, 233);
+    border-style: solid;
+    border-width: 0.5em 0 0.5em 0.5em;
+    position: relative;
+    display: block;
+    left: -1em;
+    top: 1.25em;
+}
+
+/* about-end */
+/* About-section start */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    padding: auto;
+    width: 500px;
+
+}
+
+.about.gos {
+    margin-left: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about.underline {
+    width: 95px;
+    height: 5px;
+    background-color: rgb(10, 177, 233);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    .about.gos {
+        margin-left: 0;
+    }
+}
+
+/* about-section end */
+/* footer :start */
+
+
+.about.text-small {
+    font-size: 0.9rem;
+}
+
+.about a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.about a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.about .form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.about .form-control:focus {
+    background: #212529;
+}
+
+.about footer {
+    background: #212529;
+    width: 100%;
+}
+
+.about .newsletter-form {
+    border-radius: 50px;
+}
+
+.about hr {
+    border: 3px solid white;
+    width: 85%;
+
+}
+
+/* footer-end */
+/* abouttttt-end */
+/* servicessssss start */
+/* header start */
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+header .icon {
+    color: rgb(18, 170, 235);
+    padding: 10px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    color: black;
+    font-size: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+/* header end */
+.page-section{
+    background-image: url('../Images/homeimages/Rectangle\ 13.png') no-repeat center center;
+    background-size: cover;
+    padding: 60px 30px;
+}
+/* footer start */
+.text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background-image: url('/Images/homeimages/Rectangle\ 22.png');
+    background-size: cover;
+  }
+ 
+  .newsletter-form {
+    border-radius: 50px;
+  }
+
+hr{
+    border: 3px solid white;
+    width: 85%;
+    
+}
+/* footer-end */
+/* footer end */
+/* servicessssss end */
+/* doctorssssss-start */
+/* header start */
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+header .icon {
+    color: rgb(18, 170, 235);
+    padding: 10px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    color: black;
+    font-size: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+/* header end */
+.page-section{
+    background-image: url('../Images/homeimages/Rectangle\ 13.png') no-repeat center center;
+    background-size: cover;
+    padding: 60px 30px;
+}
+/* footer start */
+.text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background-image: url('/Images/homeimages/Rectangle\ 22.png');
+    background-size: cover;
+  }
+ 
+  .newsletter-form {
+    border-radius: 50px;
+  }
+
+hr{
+    border: 3px solid white;
+    width: 85%;
+    
+}
+/* footer-end */
+/* footer end */
+/* doctorssssss-end */
+
+/* departmentssss start */
+/* departmentssss end*/
+/* header start */
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+header .icon {
+    color: rgb(18, 170, 235);
+    padding: 10px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    color: black;
+    font-size: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+/* header end */
+.page-section {
+    background-image: url('../Images/homeimages/Rectangle\ 13.png') no-repeat center center;
+    background-size: cover;
+    padding: 60px 30px;
+}
+
+/* footer start */
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #212529;
+}
+
+footer {
+    background-image: url('/Images/homeimages/Rectangle\ 22.png');
+    background-size: cover;
+}
+
+.newsletter-form {
+    border-radius: 50px;
+}
+
+hr {
+    border: 3px solid white;
+    width: 85%;
+
+}
+
+/* footer-end */
+/* footer end */
+/* department secction start */
+.undu {
+    width: 160px;
+    height: 5px;
+    background-color: rgb(10, 177, 233);
+}
+
+h6 {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 320) {
+    .Department-section{
+        justify-content: center;
+        margin-left: 50px;
+    }  
+}
+
+
+/* department section end */
+
+/* blog section start */
+/* cards */
+.para{
+    font-size: 13px;
+}
+.sep{
+    font-size: 13px;
+   }
+   .card-title , .card-text{
+    margin-top: -10px;
+
+   }
+  .line{
+    line-height: 100px;
+    color: red;
+  }
+
+/* cards */
+
+
+
+
+
+
+
+/* footer start */
+.text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background-image: url('/Images/homeimages/Rectangle\ 22.png');
+    background-size: cover;
+  }
+ 
+  .newsletter-form {
+    border-radius: 50px;
+  }
+
+hr{
+    border: 3px solid white;
+    width: 85%;
+    
+}
+/* footer-end */
+/* footer end */
+
+
+
+
+.icon-section input{
+  width: 80%;
+  float: left;
+}
+/* @media screen and (max-width: 320px) {
+ 
+.icon-section input{
+  justify-content: center;
+  margin-left: -50px;
+}
+} */
+.icon-section .bx{
+ margin:20px -30px;
+ color: white;
+ font-size:18px;
+}
+
+.form-control1,icons{
+   background-color: #1083f6;
+   width: 300px;
+}
+.next-section{
+  margin-top: -365px;
+  padding-top: 20px;
+}
+
+.form-control1::placeholder {
+  font-size: 0.95rem;
+  color: #ffffff;
+  padding:20px;
+  
+}
+  .img-fluid{
+    height: 100px;
+    width: 100%;
+  }
+  .card-text,h6{
+    font-size: 13px;
+
+  }
+  .card-img-top{
+    height: 155px;
+  }
+ .card1{
+  border: 1px solid rgb(224, 223, 223) !important;
+ }
+ 
